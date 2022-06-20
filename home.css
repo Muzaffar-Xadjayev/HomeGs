@@ -1,0 +1,72 @@
+.bg{
+    background-color: rgb(35, 16, 70);
+}
+
+.logo{
+    font-family: 'Bungee Inline', cursive;
+    color: white;
+}
+.kok{
+    color: rgb(35, 16, 70);
+}
+.one{
+   
+    
+    animation-name: one;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+     
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+@keyframes one{
+    0%{
+        animation-duration:initial;
+        background: url("photo_2022-06-15_22-01-27.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    50%{
+        background: url("photo_2022-06-15_22-01-11.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+        background: url("photo_2022-06-15_22-01-19.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+.kuk{
+    color: rgb(15, 4, 80);
+}
+.two{
+    background-color: rgb(17, 0, 65);
+}
+.four{
+    background-color: rgb(17, 0, 65);
+}
+
+.c{
+    font-size: 23px;
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.dolor:hover,.c{
+    opacity: 1;
+    background-color: aqua  ;
+    
+}

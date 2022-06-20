@@ -1,0 +1,43 @@
+.bg{
+    background-color: rgb(35, 16, 70);
+}
+
+.logo{
+    font-family: 'Bungee Inline', cursive;
+    color: white;
+}
+.kok{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ color: rgb(6, 4, 109);   
+}
+.kk{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.qzil{
+    color: rgb(252, 45, 45);
+}
+@media screen and (max-width:567px){
+    .kk{
+       
+        font-size: 18px;
+    }
+    .qzil{
+        position: relative;
+        top: 1px;
+        font-weight: 700;
+    }
+    .kok{
+        font-size: 40px;
+    }
+
+}
+@media screen and (max-width:1400px){
+    .kk{
+        width: 600px;
+    }
+
+
+
+}
